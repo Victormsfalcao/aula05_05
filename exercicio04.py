@@ -1,3 +1,4 @@
 from biblioteca import estoque
 
-estoque()
+resposta = estoque("Gugu",10, 50)
+print(resposta)

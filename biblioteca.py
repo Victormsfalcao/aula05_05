@@ -21,6 +21,5 @@ def verificarVogal(frase):
 
 def estoque(produto,quantidade,valorUnitario):
     valorEstoque = valorUnitario * quantidade
-    print(f"Ola,o estoque do produto {produto} é de {quantidade} unidades  e o valor do estoque é de {valorEstoque}")
-
+    return  valorEstoque
 
