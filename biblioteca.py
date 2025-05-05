@@ -40,3 +40,28 @@ def fazerSoma2(*num):
     for i in range(len(num)):
        soma += num[i]
     print(soma)
+
+def quantiLetras(palavra):
+    palavra = palavra.upper()
+    letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+    qtdLetras = 0
+    for i in palavra:
+        if i in letras:
+            qtdLetras += 1
+    print(f"A palavra {palavra} contém {qtdLetras} letras ")
+
+    for i in range(len(palavra)-1,-1,-1):
+        print(palavra[i], end = " ")
+
+
+def listaRepetida(lista):
+    novaLista = []
+    for i in lista:
+        if i not in novaLista:
+            novaLista.append(i)
+
+    print(novaLista)
+
+
+
+
