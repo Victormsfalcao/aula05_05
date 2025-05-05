@@ -31,3 +31,12 @@ def verificaNumeros(num):
     else:
         return "N"
 
+def fazerSoma(n1,n2):
+    soma = n1 + n2
+    print(f"A soma dos numeros {n1} e {n2} resulta em: {soma}")
+
+def fazerSoma2(*num):
+    soma = 0
+    for i in range(len(num)):
+       soma += num[i]
+    print(soma)
