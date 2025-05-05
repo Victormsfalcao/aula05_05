@@ -1,3 +1,3 @@
- from biblioteca import estoque
+from biblioteca import estoque
 
 estoque()
