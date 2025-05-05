@@ -23,3 +23,11 @@ def estoque(produto,quantidade,valorUnitario):
     valorEstoque = valorUnitario * quantidade
     return  valorEstoque
 
+def verificaNumeros(num):
+    if num > 0:
+        return "P"
+    elif num == 0:
+        return "Z"
+    else:
+        return "N"
+
